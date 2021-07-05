@@ -1,9 +1,11 @@
 <html>
+
 <head>
-<title>project</title>
+	<title>project</title>
 </head>
+
 <body>
-<?php
+	<?php
 include_once("config.php");
 if(isset($_POST['submit']))
 {
@@ -43,4 +45,5 @@ if(isset($_POST['submit']))
 }
 ?>
 </body>
+
 </html>
